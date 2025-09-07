@@ -1,0 +1,7 @@
+%chk=C:\G16W\Scratch\CFH2OH.chk
+%mem=8GB
+%nprocshared=20
+#p B3LYP/cc-pVTZ TD=(NStates=5,WhenReduce=2) Geom=AllCheck SCF=XQC NoSymm
+
+CFH2OH  TD-DFT(TDA) 5 singlets @ B3LYP/cc-pVTZ
+

@@ -1,0 +1,7 @@
+%chk=C:\G16W\Scratch\CFH2OH.chk
+%mem=8GB
+%nprocshared=20
+#p CIS(NStates=5)/cc-pVTZ Geom=AllCheck SCF=XQC NoSymm
+
+CFH2OH  CIS 5 singlets @ B3LYP/cc-pVTZ
+

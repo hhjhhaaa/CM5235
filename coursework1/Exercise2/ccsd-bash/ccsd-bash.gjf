@@ -1,0 +1,10 @@
+%chk=HF_R_RVAL.chk
+%nprocshared=20
+%mem=32GB
+#p UCCSD/cc-pVTZ Integral=SuperFineGrid nosymm
+
+H-F UHF single point R=RVAL
+
+0 1
+H    0.000000    0.000000    0.000000
+F    0.000000    0.000000    RVAL

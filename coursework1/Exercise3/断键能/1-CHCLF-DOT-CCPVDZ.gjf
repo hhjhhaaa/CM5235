@@ -1,0 +1,19 @@
+%chk=C:\G16W\Scratch\H-CHFCl-ccpvdz.chk
+%mem=4GB
+%nproc=20
+#p UB3LYP/cc-pVDZ Opt Guess=Mix Stable=Opt
+
+CHFCl-dot-ccpvdz
+
+0 2
+ C                 -4.57845447    3.12646365    0.00000000
+ H                 -4.22180004    2.11765365    0.00000000
+ F                 -4.12844668    3.76285389    1.10227059
+ Cl                -6.33845447    3.12648534    0.00000000
+
+--Link1--
+%chk=C:\G16W\Scratch\H-CHFCl-ccpvdz.chk
+#p UB3LYP/cc-pVDZ Freq Geom=AllCheck Guess=Read
+
+CHClF radical — freq
+

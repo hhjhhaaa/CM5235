@@ -1,0 +1,15 @@
+%chk=HCl.chk
+%mem=4GB
+%nproc=1
+#p hf/6-31g opt=(tight,calcfc) freq scf=tight pop=full
+
+Calculation of the ground state energy with STO-3G basis set
+
+0 1
+Cl
+H                1               B1
+
+B1       1.27500000
+
+1 2 3.0
+2

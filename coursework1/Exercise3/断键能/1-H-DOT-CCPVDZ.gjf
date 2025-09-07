@@ -1,0 +1,11 @@
+%chk=C:\G16W\Scratch\H_rad_ccpvdz.chk
+%mem=4GB
+%nproc=20
+#p UB3LYP/cc-pVDZ SP SCF=Tight
+
+H atom · (doublet) single-point
+
+0 2
+H   0.0  0.0  0.0
+
+

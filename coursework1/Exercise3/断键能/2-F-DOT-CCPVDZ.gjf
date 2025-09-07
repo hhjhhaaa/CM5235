@@ -1,0 +1,10 @@
+%chk=C:\G16W\Scratch\F_rad_ccpvdz.chk
+%mem=4GB
+%nproc=20
+#p UB3LYP/cc-pVDZ SP SCF=Tight 
+
+Fluorine atom (doublet) single-point
+
+0 2
+F   0.0  0.0  0.0
+

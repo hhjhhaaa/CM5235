@@ -1,0 +1,14 @@
+%chk=HF_UB3LYP·_ccpVTZ_scan.chk
+%mem=16GB
+%NProcShared=20
+#p UB3LYP/ cc-pVTZ scf=(tight,xqc,maxcycle=512) guess=mix opt=(modredundant,calcfc) nosymm
+
+HF PES scan — UB3LYP/ cc-pVTZ  (R: 0.50 -> 10.00 Å, step 0.01)
+
+0 1
+H
+F 1 R
+
+R=0.50
+
+B 1 2 S 951 0.01

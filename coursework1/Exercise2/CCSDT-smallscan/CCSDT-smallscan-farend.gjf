@@ -1,0 +1,14 @@
+%chk=HF_UCCSDT_pVTZ_smallscan.chk
+%mem=16GB
+%NProcShared=20
+#p CCSD(T)/ cc-pVTZ nosymm
+
+HF PES scan — UCCSDT/ cc-pVTZ  R: 10
+
+0 1
+H
+F 1 R
+
+R=10.00
+
+B 1 2 S 10 0.01
