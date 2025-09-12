@@ -1,0 +1,16 @@
+! UKS BP86 RIJCOSX ZORA ZORA-def2-SVP SARC/J TightSCF
+
+%pal
+  nprocs 16
+end
+
+%maxcore 1000
+
+%scf
+FlipSpin 0       
+FinalMs 0         
+MaxIter 300
+end
+
+* xyzfile -2 3 Cu2_for_5_BSDFT.xyz
+

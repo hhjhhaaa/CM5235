@@ -1,0 +1,16 @@
+! UKS BP86 def2-SVP def2/J TightSCF RIJCOSX
+
+%pal
+  nprocs 16
+end
+
+%maxcore 1000
+
+%scf
+FlipSpin 0       
+FinalMs 0         
+MaxIter 300
+end
+
+* xyzfile -2 3 Cu2_for_5_BSDFT.xyz
+
